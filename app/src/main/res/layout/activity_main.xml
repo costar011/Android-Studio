@@ -29,21 +29,24 @@
                     <EditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="이름 :">
+                        android:text="이름 :"
+                        android:id="@+id/name">
                     </EditText>
 
                     <!-- EditText 학번 -->
                     <EditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="학번 :">
+                        android:text="학번 :"
+                        android:id="@+id/num">
                     </EditText>
 
                     <!-- EditText 학과 -->
                     <EditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="학과 :">
+                        android:text="학과 :"
+                        android:id="@+id/department">
                     </EditText>
 
                     <!-- 성별 레이아웃  -->
@@ -55,16 +58,19 @@
                         <CheckBox
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="남자">
+                            android:text="남자"
+                            android:id="@+id/Man">
                         </CheckBox>
 
                         <CheckBox
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="여자">
+                            android:text="여자"
+                            android:id="@+id/woman">
                         </CheckBox>
                     </LinearLayout>
 
+                    <!-- 입력 레이아웃 -->
                     <LinearLayout
                         android:orientation="vertical"
                         android:layout_width="match_parent"
@@ -73,7 +79,8 @@
                         <Button
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="입 력">
+                            android:text="입 력"
+                            android:id="@+id/input">
                         </Button>
                     </LinearLayout>
                 </LinearLayout>
@@ -103,13 +110,15 @@
                         <Button
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="+">
+                            android:text="+"
+                            android:id="@+id/plus">
                         </Button>
 
                         <Button
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="-">
+                            android:text="-"
+                            android:id="@+id/minus">
                         </Button>
 
                     </LinearLayout>
@@ -138,13 +147,15 @@
                         <Button
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="<-">
+                            android:text="<-"
+                            android:id="@+id/left">
                         </Button>
 
                         <Button
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="->">
+                            android:text="->"
+                            android:id="@+id/right">
                         </Button>
                     </LinearLayout>
                 </LinearLayout>
@@ -161,25 +172,29 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="이름 적었나요?">
+                android:text="이름 적었나요?"
+                android:id="@+id/name1">
             </RadioButton>
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="학번 적었나요?">
+                android:text="학번 적었나요?"
+                android:id="@+id/num1">
             </RadioButton>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="학과 :">
+                android:text="학과 :"
+                android:id="@+id/department1">
             </TextView>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="성별 :">
+                android:text="성별 :"
+                android:id="@+id/sex">
             </TextView>
         </LinearLayout>
 </LinearLayout>
